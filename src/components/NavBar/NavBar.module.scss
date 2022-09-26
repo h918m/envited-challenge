@@ -1,0 +1,16 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 100%;
+}
+
+.loginButton { // !important allows for overriding RoundedButton's preset CSS.
+    background: linear-gradient(107.04deg, #C346D5 52.6%, #501FC1 118.32%) !important;
+    margin-right: 1.5rem !important;
+}

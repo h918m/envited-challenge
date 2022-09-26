@@ -1,0 +1,94 @@
+.header {
+}
+
+.coverImage {
+    width: auto;
+}
+
+.textContent {
+    padding: 5rem;
+}
+
+.mainTitle {
+    color: #501FC1;
+    margin-left: 3rem;
+}
+
+.subTitle {
+    color: #501FC1;
+    margin-left: 3rem;
+}
+
+.buttonFirstSet {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.buttonSecondSet {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.dotMenu {
+    margin: auto;
+    width: 25%;
+    height: auto;
+}
+
+.detailsContent {
+    margin-top: 1rem;
+}
+
+.startDate {
+    font-weight: 700;
+    font-size: medium;
+    color: #501FC1;
+    margin-left: 3rem;
+}
+
+.endDate {
+    font-weight: 700;
+    font-size: medium;
+    color: #501FC1;
+    margin-left: 3rem;
+}
+
+.addToCalendar {
+    font-weight: 300;
+    font-size: medium;
+    color: #501FC1;
+    margin-left: 3rem;
+}
+
+.locationContent {
+    margin-top: 0.5rem;
+}
+
+.location {
+    font-weight: 700;
+    font-size: medium;
+    color: #501FC1;
+    margin-left: 3rem;
+}
+
+.openInMaps {
+    font-weight: 300;
+    font-size: medium;
+    color: #501FC1;
+    margin-left: 3rem;
+}
+
+.buttonThirdSet {
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}

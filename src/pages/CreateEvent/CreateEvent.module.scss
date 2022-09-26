@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    > label {
+        color: white;
+        margin-left: 2rem;
+    }
+
+    > input[type=text] {
+        color: white;
+        margin: 0.5rem 1rem;
+    }
+
+    > input[type=datetime-local] {
+        padding: 0.5rem 1rem;
+        border-radius: 35px;
+        margin: 1rem;
+    }
+}
+
+.submitButton {
+    margin: 1rem 25%;
+    padding: 10px 10px !important;
+    font-weight: 700 !important;
+    background: linear-gradient(107.04deg, #06D6A0 48.99%, #5794F7 118.32%) !important;
+    text-align: center;
+}
+
+.submitButton {
+    margin: 2rem 25%;
+    padding: 10px 10px !important;
+    font-weight: 700 !important;
+    background: linear-gradient(107.04deg, #06D6A0 48.99%, #5794F7 118.32%) !important;
+    text-align: center;
+}

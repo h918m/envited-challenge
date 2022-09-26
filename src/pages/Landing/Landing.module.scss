@@ -1,0 +1,72 @@
+a { // React Router's <Link> tag use <a> tags.
+    text-decoration: none;
+}
+
+.textContent {
+    margin-top: 7vh;
+    align-items: center;
+}
+
+.mainText {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    color: white;
+}
+
+.subText {
+    margin-top: 5vh;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+}
+
+.createEventContent {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createEventButton { // !important allows for overriding RoundedButton's preset CSS.
+    padding: 1rem !important;
+    font-weight: 700 !important;
+    background: linear-gradient(107.04deg, #06D6A0 48.99%, #5794F7 118.32%) !important;
+}
+
+.imageContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    background-image: url("../../static/images/landing/socials_icons.png");
+    background-size: contain;
+}
+
+.productLeft {
+    position: absolute;
+    right: 57%;
+    width: 25vh;
+    height: auto;
+    z-index: 0;
+    margin-top: 2vh;
+}
+
+.productMiddle {
+    justify-content: center;
+    width: 40vh;
+    height: auto;
+    z-index: 1;
+    margin-top: -6vh;
+}
+
+.productRight {
+    position: absolute;
+    left: 57%;
+    width: 25vh;
+    height: auto;
+    z-index: 0;
+    margin-top: 2vh;
+}
